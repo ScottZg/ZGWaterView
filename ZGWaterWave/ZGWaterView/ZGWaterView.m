@@ -26,37 +26,7 @@
 
 
 
-/**
- 振幅
- */
-@property (nonatomic,assign)CGFloat swingValue;
 
-/**
- 周期
- */
-@property (nonatomic,assign)CGFloat waveCycleValue;
-
-
-/**
- 位移
- */
-@property (nonatomic,assign)CGFloat displacementValue;
-
-/**
- 当前波浪高度
- */
-@property (nonatomic,assign)CGFloat currentWaveHeight;
-
-
-/**
- 波浪速度
- */
-@property (nonatomic,assign)CGFloat waveSpeed;
-
-/**
- 水波纹宽度
- */
-@property (nonatomic,assign)CGFloat waveWidth;
 @end
 
 @implementation ZGWaterView
@@ -76,9 +46,9 @@
     _waveWidth = self.bounds.size.width;
     
     
-    self.firstWaveLayer.fillColor = [UIColor colorWithRed:230/255.0 green:230/255.0 blue:250/255.0 alpha:0.5].CGColor;
+    self.firstWaveLayer.fillColor = _wave1Color.CGColor;
     
-    self.secondWaveLayer.fillColor = [UIColor whiteColor].CGColor;
+    self.secondWaveLayer.fillColor = _wave2Color.CGColor;
     self.firstWaveLayer.strokeStart = 0.0;
     self.firstWaveLayer.strokeEnd = 0.8;
     

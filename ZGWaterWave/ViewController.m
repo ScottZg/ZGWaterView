@@ -47,6 +47,8 @@
     if (!_waterView) {
         _waterView = [[ZGWaterView alloc] initWithFrame:CGRectZero];
         _waterView.backgroundColor = [UIColor colorWithRed:220/255.0f green:20/255.0f blue:60/255.0f alpha:1];
+        _waterView.wave1Color = [UIColor colorWithRed:230/255.0 green:230/255.0 blue:250/255.0 alpha:0.5];
+        _waterView.wave2Color = [UIColor whiteColor];
         [self.view addSubview:_waterView];
     }
     return _waterView;
