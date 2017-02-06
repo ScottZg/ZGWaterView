@@ -34,6 +34,17 @@
     self = [super initWithFrame:frame];
     if (self) {
         self.backgroundColor = [UIColor clearColor];
+        _waveSpeed = 0.05;
+        
+        _swingValue = 8;
+        
+        _waveCycleValue = 2* M_PI/self.bounds.size.width;
+        
+        
+        _currentWaveHeight = self.bounds.size.height/2;
+       self.firstWaveLayer.fillColor =  [UIColor colorWithRed:230/255.0 green:230/255.0 blue:250/255.0 alpha:0.5].CGColor;
+        
+        self.secondWaveLayer.fillColor = [UIColor whiteColor].CGColor;
     }
     return self;
 }
@@ -55,14 +66,7 @@
     self.secondWaveLayer.strokeStart = 0.0;
     self.secondWaveLayer.strokeEnd = 0.8;
 //
-    _waveSpeed = 0.02;
-    
-    _swingValue = 8;
-    
-    _waveCycleValue = 2* M_PI/self.bounds.size.width;
-    
-    
-    _currentWaveHeight = self.bounds.size.height/2;
+   
     
     
     _displayLink = [CADisplayLink displayLinkWithTarget:self selector:@selector(getCurrentWave)];
