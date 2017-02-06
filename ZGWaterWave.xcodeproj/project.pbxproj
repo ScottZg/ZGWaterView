@@ -370,7 +370,7 @@
 				DEVELOPMENT_TEAM = 64PCQK6645;
 				INFOPLIST_FILE = ZGWaterWave/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.shuquwangluo.ZGWaterWave;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhanggui.ZGWaterWave;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -382,7 +382,7 @@
 				DEVELOPMENT_TEAM = 64PCQK6645;
 				INFOPLIST_FILE = ZGWaterWave/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.shuquwangluo.ZGWaterWave;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhanggui.ZGWaterWave;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -432,6 +432,7 @@
 				567F10F11E48566A00E9F6D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		567F10F21E48566A00E9F6D0 /* Build configuration list for PBXNativeTarget "ZGWaterWaveTests" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +441,7 @@
 				567F10F41E48566A00E9F6D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
