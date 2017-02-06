@@ -173,7 +173,6 @@
 				TargetAttributes = {
 					567F10CC1E48566900E9F6D0 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 64PCQK6645;
 						ProvisioningStyle = Automatic;
 					};
 					567F10E51E48566A00E9F6D0 = {
@@ -367,7 +366,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 64PCQK6645;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ZGWaterWave/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhanggui.ZGWaterWave;
@@ -379,7 +378,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 64PCQK6645;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ZGWaterWave/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhanggui.ZGWaterWave;
